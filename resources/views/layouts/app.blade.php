@@ -104,7 +104,6 @@
                                         document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}>
                             <i class="bx bx-power-off me-2"></i>
-                            {{-- <span class="align-middle">Log Out</span> --}}
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                 @csrf
                             </form>

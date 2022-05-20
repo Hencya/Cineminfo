@@ -49,6 +49,7 @@
      <script src="../assets/js/config.js"></script>
 </head>
 <body class="text-white"  style="background-color: #424242">
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color: #333333">
         <div class="container-fluid">
             <a href="{{ route('movies.index') }}">
@@ -127,13 +128,18 @@
             @endguest
           </div>
         </div>
-      </nav>    
+      </nav>   
+  <!---EndNavbar  -->
     @yield('content')
+  <!-- Footer -->
     <footer class="border border-t border-gray-800">
         <div class="container mx-auto text-sm px-4 py-6">
-            Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDb API</a>
+            Developed by <a href="https://github.com/Hencya/Cineminfo" class="underline hover:text-gray-300">Kelompok2_IF-43-11</a>
         </div>
     </footer>
+  <!-- EndFooter -->
+
+    <!-- livewire -->
     <livewire:scripts>
 
     <!-- Core JS -->

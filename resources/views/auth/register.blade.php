@@ -100,6 +100,9 @@
                         </button>                                                 
                     </div>
                 </form>
+                <div class="mb-3">                         
+                    <a class="nav-link btn btn-outline-primary mx-3" href="{{ route('movies.index') }}">Go To Home</a>
+                </div>
             </div>
         </div>
     </div>    
