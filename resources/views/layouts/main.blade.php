@@ -16,6 +16,7 @@
  
      <!-- Scripts -->
      <script src="{{ asset('js/app.js') }}" defer></script>
+     <script src="/resources/js/custom.js" defer></script>
  
      <!-- Favicon -->
      <link rel="icon" type="image/x-icon" href="../assets/img/favicon/logo.ico" />
@@ -47,6 +48,7 @@
      <script src="../assets/vendor/js/helpers.js"></script>
  
      <script src="../assets/js/config.js"></script>
+    
 </head>
 <body class="text-white"  style="background-color: #424242">
   <!-- Navbar -->
