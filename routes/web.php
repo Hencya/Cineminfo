@@ -17,3 +17,5 @@ Route::get('/actors/{id}', 'ActorsController@show')->name('actors.show');
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::post('/add-wishlist', 'WishlistController@storewishlist');
